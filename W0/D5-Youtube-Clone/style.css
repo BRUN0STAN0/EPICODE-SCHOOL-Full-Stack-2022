@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+      body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .topbar {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+/* INIZIO ESERCITAZIONE */
+
+      .content {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+      
+      }
+
+      .preview {
+        margin: 20px;
+        width: 28%;
+      }
+
+      .preview img {
+        width:100%;
+      }
+
+      .logo2 {
+        
+        width: 32px;
+        margin: 12px 0px;
+      }
+
+      .logo2 img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: row;
+        
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+      }
+
+/* FINE ESERCITAZIONE */
+
+      .icon {
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        cursor: pointer;
+      }
+
+      .icon ion-icon {
+        font-size: 2em;
+      }
+
+      .icon p {
+        margin: 0;
+      }
+
+      .icon:not(:first-of-type) {
+        height: 16vh;
+      }
+
+      .logo {
+        height: 50%;
+      }
+
+      .search-wrapper {
+        display: flex;
+        height: 50%;
+        width: 30%;
+      }
+
+      .search-wrapper input {
+        width: 100%;
+        padding: 0 1em;
+      }
+
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      .top-icon {
+        font-size: 2em;
+        padding: 0 0.5em;
+      }
+
+      .mic-icon {
+        display: flex;
+        align-items: center;
+      }
+
+      .search-btn {
+        padding: 0 0.7em;
+        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+      }
+      
